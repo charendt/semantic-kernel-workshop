@@ -1,57 +1,49 @@
-# Project Name
+## Initial Draft
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
+1. SK Intro - Level 200
+    * Services
+    * Functions
+    * Plugins
+    * Automatic Function Calling
+    * Filters
+    * Memory
 
 
-## Demo
+1. SK Agents
+    * Why Agents?
+    * Creating Agents
+    * Agent Communications
+    * Agent Selection Strategies
+    * Chat Termination
+    * Agent Topologies
+        * Single Agent
+        * Reflection
+        * Network
+        * Supervisor / Planning
+        * Hierarchical
+        * Guided / Custom
 
-A demo app is included to show how to use the project.
+1. SK Process
+    * Why Processes
+    * Creating Steps and Processes
+    * Steps Transitions
+    * State Management
+    * Embedded Processes
 
-To run the demo, follow these steps:
 
-(Add steps to start up the demo)
+1. Applications
+    * RAG
+    * NL2SQL 
+    * Multimodal
+    * Realtime Voice
 
-1.
-2.
-3.
+1. Production Deployments
+    * Multi-runtime Environments
+    * Deploying with Dapr 
+    * SK Agents on Dapr
+    * SK Processes on Dapr
 
-## Resources
 
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+1. Integration Points
+    * SK + MS 365 Copilot
+    * SK + AI Agent Service
