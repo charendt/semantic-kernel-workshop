@@ -1,3 +1,9 @@
+# Workshop
+
+
+This workshop provides a comprehensive guide to using Semantic Kernel (SK) with Python and Azure OpenAI for building AI-driven applications. We will cover core concepts of Semantic Kernel, how to create AI agents, how to orchestrate multi-step processes, and how to implement Retrieval-Augmented Generation (RAG) with Azure OpenAI. The content is organized with clear explanations, industry-relevant scenarios, and hands-on code examples.
+
+
 ## Initial Draft
 
 1. SK Intro - Level 200
