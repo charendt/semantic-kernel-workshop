@@ -15,6 +15,11 @@ This workshop provides a comprehensive guide to using Semantic Kernel (SK) with 
     * Memory
 
 
+1. Orchestration with SK: An application implementation
+    * Plugings with state 
+    * Automatic Function Calling 
+
+
 1. SK Agents
     * Why Agents?
     * Creating Agents
@@ -29,6 +34,10 @@ This workshop provides a comprehensive guide to using Semantic Kernel (SK) with 
         * Hierarchical
         * Guided / Custom
 
+1. Agent Applications Implementation
+    * Agents + Fine-tuned Phi Model
+    * Agent + Multimodal Document Processing 
+
 1. SK Process
     * Why Processes
     * Creating Steps and Processes
@@ -36,6 +45,8 @@ This workshop provides a comprehensive guide to using Semantic Kernel (SK) with 
     * State Management
     * Embedded Processes
 
+1. SK Process Implementation
+    * Process with NL2SQL 
 
 1. Applications
     * RAG
