@@ -1,0 +1,23 @@
+{
+    "name": "Semantic Kernel Workshop",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "installTools": true,
+            "version": "3.12"
+        }
+    },
+    "postCreateCommand": "bash -c 'curl -LsSf https://astral.sh/uv/install.sh | sh && uv sync --prerelease=allow && [ -f .env.example ] && cp -n .env.example .env || echo \"No .env.example found\"'",
+    "postAttachCommand": "echo '\n✅ Setup complete! Please update your .env file with your API credentials before proceeding.\n'",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python"
+            }
+        }
+    }
+} 
