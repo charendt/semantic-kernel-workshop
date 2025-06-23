@@ -5,7 +5,7 @@ export BACKEND_HOST="localhost"
 export BACKEND_PORT=8000
 export FRONTEND_HOST="localhost"
 export FRONTEND_PORT=5173
-WAIT_TIMEOUT=30 # Maximum time to wait for each service (seconds)
+WAIT_TIMEOUT=60 # Maximum time to wait for each service (seconds)
 
 # Function to check if a command exists
 command_exists() {
